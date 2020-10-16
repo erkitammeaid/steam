@@ -1,34 +1,22 @@
 <template>
-  <div class="bg-blue-steam mx-40 flex">
-    <div class="p-4 p-4 border-solid border-r-2">
+  <div class="bg-blue-steam mx-40 flex mt-10">
+    <div class="p-4 border-solid border-r-2 border-gray-700 bg-gradient-to-b hover:from-gray-300 hover:to-gray-400">
       <span class="text-white p-4 hover:text-gray-500">Sinu Pood</span>
     </div>
-    <div class="p-4">
-      <span
-        class="text-white p-4 hover:text-gray-500 p-4 border-solid border-r-2"
-        >Sirvi</span
-      >
+    <div class="p-4 border-solid border-r-2 border-gray-700 bg-gradient-to-b hover:from-gray-300 hover:to-gray-400">
+      <span class="text-white p-4 hover:text-gray-500">Sirvi</span>
     </div>
-    <div class="p-4">
-      <span
-        class="text-white p-4 hover:text-gray-500 p-4 border-solid border-r-2"
-        >Punktide Pood</span
-      >
+    <div class="p-4 border-solid border-r-2 border-gray-700 bg-gradient-to-b hover:from-gray-300 hover:to-gray-400">
+      <span class="text-white p-4 hover:text-gray-500">Punktide Pood</span>
     </div>
-    <div class="p-4">
-      <span
-        class="text-white p-4 hover:text-gray-500 p-4 border-solid border-r-2"
-        >Uudised</span
-      >
+    <div class="p-4 border-solid border-r-2 border-gray-700 bg-gradient-to-b hover:from-gray-300 hover:to-gray-400">
+      <span class="text-white p-4 hover:text-gray-500">Uudised</span>
     </div>
-    <div class="p-4">
-      <span
-        class="text-white p-4 hover:text-gray-500 p-4 border-solid border-r-2"
-        >Labor</span
-      >
+    <div class="p-4 border-solid border-r-2 border-gray-700 bg-gradient-to-b hover:from-gray-300 hover:to-gray-400">
+      <span class="text-white p-4 hover:text-gray-500">Labor</span>
     </div>
     <div class="search p-4">
-      <input type="text" name="search" />
+      <input class="bg-blue-800" type="text" name="search" placeholder="   Otsi poest" />
     </div>
   </div>
 </template>
