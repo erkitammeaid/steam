@@ -6,6 +6,7 @@
 import PrimaryNav from "./components/PrimaryNav.vue";
 import SecondaryNav from "./components/SecondaryNav.vue";
 import background from "./components/background.vue";
+import links from "./components/links.vue";
 
 export default {
   name: "App",
@@ -13,6 +14,7 @@ export default {
     PrimaryNav,
     SecondaryNav,
     background,
+    links,
   },
 };
 </script>
